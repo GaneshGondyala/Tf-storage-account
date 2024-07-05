@@ -5,13 +5,13 @@ provider "azurerm" {
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default     = "Ganesh-rg1234"
+  default     = "Ganesh-rg"
 }
 
 variable "location" {
   description = "Azure region to deploy resources"
   type        = string
-  default     = "central US"
+  default     = "UK South"
 }
 
 
