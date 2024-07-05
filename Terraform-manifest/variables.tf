@@ -5,7 +5,7 @@ provider "azurerm" {
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default     = "Ganesh-rg"
+  default     = "Ganesh-rg12"
 }
 
 variable "location" {
